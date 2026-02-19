@@ -18,11 +18,12 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
     height: auto;
+    padding: 10px;
 }
 
 header h1{
-    padding: 15px;
     color: white;
 }
 
