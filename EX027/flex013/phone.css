@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px) {
+    header{
+        flex-flow: column nowrap;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    nav ul{
+        display: none;
+        padding: 0px;
+    }
+
+    nav li{
+        text-align: center;
+    }
+
+    i#burguer{
+        display: block;
+        cursor: pointer;
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(104, 109, 109);
+        color: white;
+        border-radius: 10px;
+    }
+}
