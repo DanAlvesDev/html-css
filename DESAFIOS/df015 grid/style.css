@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+}
+
+.caixa{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+header#top{
+    background-color: lightblue;
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+nav#menu{
+    background-color: lightpink;
+    grid-area: 2 / 1 / 2 / -1;
+}
+
+main#pri{
+    background-color: yellow;
+    grid-area: 3 / 1 ;
+}
+
+aside#seg{
+    background-color: yellowgreen;
+    grid-area: 3 / 2;
+}
+
+footer#rodape{
+    background-color: red;
+    grid-area: 4 / 1 / 4 / -1
+}
